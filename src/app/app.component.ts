@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
         Validators.max(100)
       ]]
     });
-
+    
     this.form.valueChanges.subscribe(() => console.log(this.form));
   }
 
